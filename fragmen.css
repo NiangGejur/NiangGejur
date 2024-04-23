@@ -1,43 +1,60 @@
 /* CSS untuk halaman */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 /* Kontainer fragmen */
 .container {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 /* Gaya fragmen */
 .fragment {
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* Gaya gambar fragmen */
 .fragment img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 /* Gaya judul fragmen */
 .fragment h2 {
-    color: #333;
-    margin: 10px 0;
+  color: #333;
+  margin: 10px 0;
 }
 
 /* Gaya paragraf fragmen */
 .fragment p {
-    color: #666;
+  color: #666;
+}
+
+/* Media queries untuk tampilan seluler */
+@media (max-width: 768px) {
+  /* Kontainer fragmen */
+  .container {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  /* Gaya fragmen */
+  .fragment {
+    width: 80%;
+    margin-bottom: 15px;
+  }
 }
