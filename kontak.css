@@ -1,0 +1,55 @@
+body {
+  background-image: url(assets/download.gif);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.kontak {
+  text-align: center;
+}
+
+.kontak img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.kontak h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.kontak p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.sosial-media a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.sosial-media a:hover {
+  background-color: #555;
+}

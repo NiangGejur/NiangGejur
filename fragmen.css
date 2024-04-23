@@ -1,0 +1,43 @@
+/* CSS untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Kontainer fragmen */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Gaya fragmen */
+.fragment {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Gaya gambar fragmen */
+.fragment img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Gaya judul fragmen */
+.fragment h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Gaya paragraf fragmen */
+.fragment p {
+    color: #666;
+}
